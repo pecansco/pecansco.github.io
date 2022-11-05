@@ -10238,12 +10238,24 @@ body:not(.device-touch) .button.button-full strong {
 
 .media-box.fbox-bg .fbox-media img {
 	border-radius: 5px 5px 0 0;
-	height: 255px;
+	height: 175px;
 	object-fit: cover;
 }
 
 .media-box.fbox-bg .fbox-media img.vardan {
 	object-position: 0 -20px;
+}
+
+.media-box.fbox-bg .fbox-media img.narek {
+	object-position: 0 -100px;
+}
+
+.media-box.fbox-bg .fbox-media img.davit {
+	object-position: 0 0;
+}
+
+.media-box.fbox-bg .fbox-media img.mariam {
+	object-position: 0 -25px;
 }
 
 
