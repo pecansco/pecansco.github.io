@@ -10218,7 +10218,15 @@ body:not(.device-touch) .button.button-full strong {
 	border-radius: 0 0 5px 5px;
 }
 
-.media-box.fbox-bg .fbox-media img { border-radius: 5px 5px 0 0; }
+.media-box.fbox-bg .fbox-media img {
+	border-radius: 5px 5px 0 0;
+	height: 255px;
+	object-fit: cover;
+}
+
+.media-box.fbox-bg .fbox-media img.vardan {
+	object-position: 0 -20px;
+}
 
 
 /* ----------------------------------------------------------------
