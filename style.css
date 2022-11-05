@@ -3148,7 +3148,7 @@ html[xmlns] .slider-wrap {
 #header {
 	position: relative;
 	background-color: #5186A3;
-	border-bottom: 1px solid #F5F5F5;
+	border-bottom: 1px solid #2c4a5b;
 }
 
 #header-wrap {
@@ -5932,6 +5932,24 @@ body:not(.has-plugin-html5video) .video-wrap video {
 		font-size: 2.6vw;
 	}
 
+	.slider-element .video-wrap,
+	.section .video-wrap,
+	.swiper-slide .yt-bg-player,
+	.section .yt-bg-player,
+	.swiper-slide-bg {
+		top: 0px;
+	}
+
+	.header-size-md #header-wrap #logo a,
+	.header-size-md #header-wrap #logo img {
+		height: 40px;
+	}
+
+	.header-size-md #header-wrap #logo a div {
+		font-size: 26px;
+		color: #fff;
+	}
+
 }
 
 .slider-caption.slider-caption-right {
@@ -6629,7 +6647,7 @@ body:not(.has-plugin-html5video) .video-wrap video {
 
 #page-title.page-title-nobg {
 	background: transparent !important;
-	border-bottom: 1px solid #F5F5F5;
+	border-bottom: 1px solid #2c4a5b;
 }
 
 
