@@ -402,7 +402,7 @@ span.middot {
 .bg-color,
 .bg-color #header-wrap { background-color: #1ABC9C !important; }
 
-.color { color: #1ABC9C !important; }
+.color { color: #d697aa !important; }
 
 .border-color { border-color: #1ABC9C !important; }
 
@@ -3399,6 +3399,8 @@ html[xmlns] .slider-wrap {
 -----------------------------------------------------------------*/
 
 
+  .font-logo {font-family: 'Indie Flower', cursive !important;}
+
 #logo {
 	position: relative;
 	display: -ms-flexbox;
@@ -3453,6 +3455,12 @@ html[xmlns] .slider-wrap {
 
 	.sticky-header-shrink #header-wrap #logo img {
 		height: 60px;
+	}
+	
+	.sticky-header-shrink #header-wrap #logo a {
+		font-size: 28px;
+		display: flex;
+		align-items: center;
 	}
 
 }
@@ -9692,7 +9700,7 @@ body:not(.device-touch) .button.button-full strong {
 .fbox-icon i,
 .fbox-icon img {
 	border-radius: 50%;
-	background-color: #1ABC9C;
+	background-color: #d697aa;
 }
 
 .fbox-icon i {
@@ -9808,7 +9816,7 @@ body:not(.device-touch) .button.button-full strong {
 -----------------------------------------------------------------*/
 
 .fbox-outline .fbox-icon a {
-	border: 1px solid #1ABC9C;
+	border: 1px solid #d697aa;
 	padding: 0.25rem;
 	border-radius: 50%;
 }
