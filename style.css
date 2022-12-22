@@ -12006,6 +12006,7 @@ body:not(.device-touch) .clients-grid .grid-item a {
 	text-transform: uppercase;
 	letter-spacing: 1px;
 	font-weight: 700;
+	font-family: 'Indie Flower', cursive !important;
 }
 
 .team-title span {
@@ -12013,7 +12014,6 @@ body:not(.device-touch) .clients-grid .grid-item a {
 	color: #1ABC9C;
 	font-weight: 400;
 	font-family: 'PT Serif', serif;
-	font-style: italic;
 	font-size: 1rem;
 	margin-top: 5px;
 }
