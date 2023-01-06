@@ -3456,7 +3456,7 @@ html[xmlns] .slider-wrap {
 	.sticky-header-shrink #header-wrap #logo img {
 		height: 60px;
 	}
-	
+
 	.sticky-header-shrink #header-wrap #logo a {
 		font-size: 28px;
 		display: flex;
@@ -16815,6 +16815,11 @@ label.checkbox { padding-left: 20px; }
 .fadeOutUpSmall {
 	-webkit-animation-name: fadeOutUpSmall;
 	animation-name: fadeOutUpSmall;
+}
+
+.flex-center {
+	justify-content: center;
+	display: flex;
 }
 
 
