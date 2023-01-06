@@ -19,7 +19,7 @@
 
 body.dark,
 .dark #wrapper,
-.dark #content,
+.dark #content:not(.white),
 .dark .shop-quick-view-ajax,
 .dark .portfolio-ajax-modal,
 .dark .ajax-modal-title,
@@ -28,6 +28,17 @@ body.dark,
 body.dark #side-panel,
 body #side-panel.dark {
 	background-color: #383838;
+}
+
+.dark #content.white {
+	background-color: #FFF;
+	color: #555;
+}
+
+.dark #content.white h1,
+.dark #content.white h2,
+.dark #content.white h3 {
+	color: #555;
 }
 
 .dark .css3-spinner > div {
@@ -1188,7 +1199,7 @@ body #side-panel.dark {
 .dark .testimonial.twitter-scroll .testi-meta span a:hover { color: #EEE; }
 
 .dark .team-desc.team-desc-bg {
-	background-color: rgba(0,0,0,0.2);
+	background-color: #202020;
 }
 
 .dark .team-content {
@@ -1387,6 +1398,9 @@ body #side-panel.dark {
 
 .dark .heading-block::after {
 	border-top-color: rgba(255,255,255,0.7);
+}
+.dark #content.white .heading-block::after {
+	border-top-color: #202020;
 }
 
 .dark .fancy-title::before,
