@@ -5,4 +5,13 @@
 	Overwriting Default Theme Styles for Better Handling Updates
 -----------------------------------------------------------------*/
 
+.dark #footer .menu-link {
+	padding: 0 6px !important;
+	font-size: 12px;
+}
+
+.white-text {
+	color: #F7F7F7;
+}
+
 

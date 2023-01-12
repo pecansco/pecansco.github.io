@@ -2068,13 +2068,13 @@ window.scwEvents = window.scwEvents || {};
 	SEMICOLON.documentOnReady = {
 
 		init: function(){
-			SEMICOLON.initialize.init();
 			SEMICOLON.header.init();
 			if( $slider.length > 0 || $sliderElement.length > 0 ) { SEMICOLON.slider.init(); }
 			if( $portfolio.length > 0 ) { SEMICOLON.portfolio.init(); }
 			SEMICOLON.widget.init();
 			SEMICOLON.documentOnReady.windowscroll();
 			SEMICOLON.customization.onReady();
+			SEMICOLON.initialize.init();
 		},
 
 		windowscroll: function(){
